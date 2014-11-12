@@ -1,0 +1,66 @@
+/* Only applying this to elements that are animated - don't want to interfere with reset of site if not in use. ~CP */
+.animation-1, .animation-2, .animation-3 {
+  /* HTML5 display-role reset for older browsers */ }
+  .animation-1 html, .animation-1 body, .animation-1 div, .animation-1 span, .animation-1 applet, .animation-1 object, .animation-1 iframe,
+  .animation-1 h1, .animation-1 h2, .animation-1 h3, .animation-1 h4, .animation-1 h5, .animation-1 h6, .animation-1 p, .animation-1 blockquote, .animation-1 pre,
+  .animation-1 a, .animation-1 abbr, .animation-1 acronym, .animation-1 address, .animation-1 big, .animation-1 cite, .animation-1 code,
+  .animation-1 del, .animation-1 dfn, .animation-1 em, .animation-1 img, .animation-1 ins, .animation-1 kbd, .animation-1 q, .animation-1 s, .animation-1 samp,
+  .animation-1 small, .animation-1 strike, .animation-1 strong, .animation-1 sub, .animation-1 sup, .animation-1 tt, .animation-1 var,
+  .animation-1 b, .animation-1 u, .animation-1 i, .animation-1 center,
+  .animation-1 dl, .animation-1 dt, .animation-1 dd, .animation-1 ol, .animation-1 ul, .animation-1 li,
+  .animation-1 fieldset, .animation-1 form, .animation-1 label, .animation-1 legend,
+  .animation-1 table, .animation-1 caption, .animation-1 tbody, .animation-1 tfoot, .animation-1 thead, .animation-1 tr, .animation-1 th, .animation-1 td,
+  .animation-1 article, .animation-1 aside, .animation-1 canvas, .animation-1 details, .animation-1 embed,
+  .animation-1 figure, .animation-1 figcaption, .animation-1 footer, .animation-1 header, .animation-1 hgroup,
+  .animation-1 menu, .animation-1 nav, .animation-1 output, .animation-1 ruby, .animation-1 section, .animation-1 summary,
+  .animation-1 time, .animation-1 mark, .animation-1 audio, .animation-1 video, .animation-2 html, .animation-2 body, .animation-2 div, .animation-2 span, .animation-2 applet, .animation-2 object, .animation-2 iframe,
+  .animation-2 h1, .animation-2 h2, .animation-2 h3, .animation-2 h4, .animation-2 h5, .animation-2 h6, .animation-2 p, .animation-2 blockquote, .animation-2 pre,
+  .animation-2 a, .animation-2 abbr, .animation-2 acronym, .animation-2 address, .animation-2 big, .animation-2 cite, .animation-2 code,
+  .animation-2 del, .animation-2 dfn, .animation-2 em, .animation-2 img, .animation-2 ins, .animation-2 kbd, .animation-2 q, .animation-2 s, .animation-2 samp,
+  .animation-2 small, .animation-2 strike, .animation-2 strong, .animation-2 sub, .animation-2 sup, .animation-2 tt, .animation-2 var,
+  .animation-2 b, .animation-2 u, .animation-2 i, .animation-2 center,
+  .animation-2 dl, .animation-2 dt, .animation-2 dd, .animation-2 ol, .animation-2 ul, .animation-2 li,
+  .animation-2 fieldset, .animation-2 form, .animation-2 label, .animation-2 legend,
+  .animation-2 table, .animation-2 caption, .animation-2 tbody, .animation-2 tfoot, .animation-2 thead, .animation-2 tr, .animation-2 th, .animation-2 td,
+  .animation-2 article, .animation-2 aside, .animation-2 canvas, .animation-2 details, .animation-2 embed,
+  .animation-2 figure, .animation-2 figcaption, .animation-2 footer, .animation-2 header, .animation-2 hgroup,
+  .animation-2 menu, .animation-2 nav, .animation-2 output, .animation-2 ruby, .animation-2 section, .animation-2 summary,
+  .animation-2 time, .animation-2 mark, .animation-2 audio, .animation-2 video, .animation-3 html, .animation-3 body, .animation-3 div, .animation-3 span, .animation-3 applet, .animation-3 object, .animation-3 iframe,
+  .animation-3 h1, .animation-3 h2, .animation-3 h3, .animation-3 h4, .animation-3 h5, .animation-3 h6, .animation-3 p, .animation-3 blockquote, .animation-3 pre,
+  .animation-3 a, .animation-3 abbr, .animation-3 acronym, .animation-3 address, .animation-3 big, .animation-3 cite, .animation-3 code,
+  .animation-3 del, .animation-3 dfn, .animation-3 em, .animation-3 img, .animation-3 ins, .animation-3 kbd, .animation-3 q, .animation-3 s, .animation-3 samp,
+  .animation-3 small, .animation-3 strike, .animation-3 strong, .animation-3 sub, .animation-3 sup, .animation-3 tt, .animation-3 var,
+  .animation-3 b, .animation-3 u, .animation-3 i, .animation-3 center,
+  .animation-3 dl, .animation-3 dt, .animation-3 dd, .animation-3 ol, .animation-3 ul, .animation-3 li,
+  .animation-3 fieldset, .animation-3 form, .animation-3 label, .animation-3 legend,
+  .animation-3 table, .animation-3 caption, .animation-3 tbody, .animation-3 tfoot, .animation-3 thead, .animation-3 tr, .animation-3 th, .animation-3 td,
+  .animation-3 article, .animation-3 aside, .animation-3 canvas, .animation-3 details, .animation-3 embed,
+  .animation-3 figure, .animation-3 figcaption, .animation-3 footer, .animation-3 header, .animation-3 hgroup,
+  .animation-3 menu, .animation-3 nav, .animation-3 output, .animation-3 ruby, .animation-3 section, .animation-3 summary,
+  .animation-3 time, .animation-3 mark, .animation-3 audio, .animation-3 video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  .animation-1 article, .animation-1 aside, .animation-1 details, .animation-1 figcaption, .animation-1 figure,
+  .animation-1 footer, .animation-1 header, .animation-1 hgroup, .animation-1 menu, .animation-1 nav, .animation-1 section, .animation-2 article, .animation-2 aside, .animation-2 details, .animation-2 figcaption, .animation-2 figure,
+  .animation-2 footer, .animation-2 header, .animation-2 hgroup, .animation-2 menu, .animation-2 nav, .animation-2 section, .animation-3 article, .animation-3 aside, .animation-3 details, .animation-3 figcaption, .animation-3 figure,
+  .animation-3 footer, .animation-3 header, .animation-3 hgroup, .animation-3 menu, .animation-3 nav, .animation-3 section {
+    display: block; }
+  .animation-1 body, .animation-2 body, .animation-3 body {
+    line-height: 1; }
+  .animation-1 ol, .animation-1 ul, .animation-2 ol, .animation-2 ul, .animation-3 ol, .animation-3 ul {
+    list-style: none; }
+  .animation-1 blockquote, .animation-1 q, .animation-2 blockquote, .animation-2 q, .animation-3 blockquote, .animation-3 q {
+    quotes: none; }
+  .animation-1 blockquote:before, .animation-1 blockquote:after,
+  .animation-1 q:before, .animation-1 q:after, .animation-2 blockquote:before, .animation-2 blockquote:after,
+  .animation-2 q:before, .animation-2 q:after, .animation-3 blockquote:before, .animation-3 blockquote:after,
+  .animation-3 q:before, .animation-3 q:after {
+    content: '';
+    content: none; }
+  .animation-1 table, .animation-2 table, .animation-3 table {
+    border-collapse: collapse;
+    border-spacing: 0; }

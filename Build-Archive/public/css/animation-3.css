@@ -1,0 +1,301 @@
+.animation-3 {
+  display: block;
+  height: 325px;
+  width: 100%;
+  margin: 30px auto 0px auto;
+  position: relative;
+  text-align: center; }
+  .animation-3 .frame-1, .animation-3 .frame-2 {
+    display: block;
+    width: 50%;
+    height: 325px; }
+    .animation-3 .frame-1 h2, .animation-3 .frame-2 h2 {
+      font-family: 'franklin_gothic_fscondensed';
+      font-size: 1.600em;
+      line-height: 1.0;
+      padding: 0px 30px;
+      color: #333333; }
+    .animation-3 .frame-1 p, .animation-3 .frame-2 p {
+      font-family: 'proxima_nova_rgregular';
+      font-size: 0.950em;
+      line-height: 1.2;
+      padding: 0px 30px;
+      color: #676767; }
+  .animation-3 .frame-1 {
+    position: relative;
+    z-index: 1;
+    background: url(../images/animation-3/card-bg-3.png) no-repeat;
+    background-size: 100%;
+    width: 270px;
+    height: 214px;
+    float: left; }
+    .animation-3 .frame-1 h2 {
+      font-family: 'franklin_gothic_fscondensed';
+      padding: 45% 0 0 0; }
+    .animation-3 .frame-1 .stats {
+      display: block;
+      position: relative;
+      padding: 10% 0 0 0;
+      width: 92%;
+      margin: 0px auto;
+      text-align: center;
+      color: #ac8cba;
+      font-size: 0.750em; }
+      .animation-3 .frame-1 .stats span {
+        display: block;
+        clear: both;
+        width: 100%;
+        height: 16px;
+        font-size: 1.550em;
+        color: #ffffff;
+        line-height: 1; }
+      .animation-3 .frame-1 .stats .left {
+        display: block;
+        width: 50%;
+        float: left; }
+        .animation-3 .frame-1 .stats .left .value-1, .animation-3 .frame-1 .stats .left .value-2, .animation-3 .frame-1 .stats .left .value-3, .animation-3 .frame-1 .stats .left .value-4 {
+          opacity: 0.0;
+          background: #722182;
+          position: absolute;
+          display: block;
+          width: 48%; }
+          .animation-3 .frame-1 .stats .left .value-1 span, .animation-3 .frame-1 .stats .left .value-2 span, .animation-3 .frame-1 .stats .left .value-3 span, .animation-3 .frame-1 .stats .left .value-4 span {
+            opacity: 0.0;
+            font-size: 16px; }
+      .animation-3 .frame-1 .stats .right {
+        display: block;
+        width: 50%;
+        float: left; }
+        .animation-3 .frame-1 .stats .right .value-1, .animation-3 .frame-1 .stats .right .value-2, .animation-3 .frame-1 .stats .right .value-3, .animation-3 .frame-1 .stats .right .value-4, .animation-3 .frame-1 .stats .right .value-5, .animation-3 .frame-1 .stats .right .value-6, .animation-3 .frame-1 .stats .right .value-7, .animation-3 .frame-1 .stats .right .value-8, .animation-3 .frame-1 .stats .right .value-9 {
+          opacity: 0.0;
+          background: #722182;
+          position: absolute;
+          display: block;
+          width: 48%;
+          margin: 0px 0px 0px 2px; }
+          .animation-3 .frame-1 .stats .right .value-1 span, .animation-3 .frame-1 .stats .right .value-2 span, .animation-3 .frame-1 .stats .right .value-3 span, .animation-3 .frame-1 .stats .right .value-4 span, .animation-3 .frame-1 .stats .right .value-5 span, .animation-3 .frame-1 .stats .right .value-6 span, .animation-3 .frame-1 .stats .right .value-7 span, .animation-3 .frame-1 .stats .right .value-8 span, .animation-3 .frame-1 .stats .right .value-9 span {
+            opacity: 0.0;
+            font-size: 16px; }
+  .animation-3 .frame-2 {
+    position: relative;
+    z-index: 1;
+    background: url(../images/animation-3/card-bg-3a.png) no-repeat;
+    background-size: 100%;
+    width: 270px;
+    height: 283px;
+    float: left;
+    opacity: 0; }
+    .animation-3 .frame-2 h2 {
+      font-family: 'franklin_gothic_fscondensed';
+      padding: 105px 20px 0px 20px; }
+    .animation-3 .frame-2 h3 {
+      font-size: 1.125em;
+      font-family: 'franklin_gothic_fscondensed';
+      padding: 0px 20px 5px 20px; }
+    .animation-3 .frame-2 p {
+      padding: 0px 20px;
+      font-size: 0.900em; }
+    .animation-3 .frame-2 p.meta {
+      padding: 10px 20px 0px 20px;
+      font-size: 0.750em;
+      color: #929497; }
+  .animation-3 .lightning {
+    bottom: 12px;
+    display: block;
+    height: 21px;
+    left: 40px;
+    position: absolute;
+    width: 30px;
+    text-align: right;
+    background: #f1f1f2 url(../images/animation-3/lightning.png) no-repeat center left;
+    opacity: 0; }
+    .animation-3 .lightning span.one, .animation-3 .lightning span.two {
+      background: #f1f1f2;
+      color: #a6a8ab;
+      display: block;
+      font-size: 1.2em;
+      height: 18px;
+      line-height: 1;
+      margin: 1px 0 0 22px;
+      opacity: 0;
+      padding: 0;
+      position: absolute;
+      text-align: left;
+      width: 18px; }
+
+.animation-3.start .frame-1 .stats .left .value-1 {
+  opacity: 1; }
+  .animation-3.start .frame-1 .stats .left .value-1 span {
+    opacity: 1; }
+.animation-3.start .frame-1 .stats .left .value-2 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.1s forwards 1.0s ease-in-out;
+  animation: opacity 0.1s forwards 1.0s ease-in-out; }
+  .animation-3.start .frame-1 .stats .left .value-2 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: opacity 0.1s forwards 1.0s ease-in-out;
+    animation: opacity 0.1s forwards 1.0s ease-in-out; }
+.animation-3.start .frame-1 .stats .left .value-3 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.1s forwards 2.1s ease-in-out;
+  animation: opacity 0.1s forwards 2.1s ease-in-out; }
+  .animation-3.start .frame-1 .stats .left .value-3 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.2s forwards 2.1s ease-in-out;
+    animation: number 0.2s forwards 2.1s ease-in-out; }
+.animation-3.start .frame-1 .stats .left .value-4 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.1s forwards 3.5s ease-in-out;
+  animation: opacity 0.1s forwards 3.5s ease-in-out; }
+  .animation-3.start .frame-1 .stats .left .value-4 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.2s forwards 3.5s ease-in-out;
+    animation: number 0.2s forwards 3.5s ease-in-out; }
+.animation-3.start .frame-1 .stats .right .value-1 {
+  opacity: 1; }
+  .animation-3.start .frame-1 .stats .right .value-1 span {
+    opacity: 1; }
+.animation-3.start .frame-1 .stats .right .value-2 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.1s forwards 1.0s ease-in-out;
+  animation: opacity 0.1s forwards 1.0s ease-in-out; }
+  .animation-3.start .frame-1 .stats .right .value-2 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: opacity 0.1s forwards 1.0s ease-in-out;
+    animation: opacity 0.1s forwards 1.0s ease-in-out; }
+.animation-3.start .frame-1 .stats .right .value-3 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.1s forwards 2.1s ease-in-out;
+  animation: opacity 0.1s forwards 2.1s ease-in-out; }
+  .animation-3.start .frame-1 .stats .right .value-3 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.2s forwards 2.1s ease-in-out;
+    animation: number 0.2s forwards 2.1s ease-in-out; }
+.animation-3.start .frame-1 .stats .right .value-4 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: opacity 0.2s forwards 3.5s ease-in-out;
+  animation: opacity 0.2s forwards 3.5s ease-in-out; }
+  .animation-3.start .frame-1 .stats .right .value-4 span {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.1s forwards 3.5s ease-in-out;
+    animation: number 0.2s forwards 3.5s ease-in-out; }
+.animation-3.start .frame-2 {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: card2 0.4s forwards 1.0s ease-in-out;
+  animation: card2 0.4s forwards 1.0s ease-in-out; }
+.animation-3.start .lightning {
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-animation: lightning 0.6s forwards 2.1s ease-in-out;
+  animation: lightning 0.6s forwards 2.1s ease-in-out; }
+  .animation-3.start .lightning span.one {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.4s forwards 2.5s ease-in-out;
+    animation: number 0.4s forwards 2.5s ease-in-out; }
+  .animation-3.start .lightning span.two {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-animation: number 0.4s forwards 3.5s ease-in-out;
+    animation: number 0.4s forwards 3.5s ease-in-out; }
+
+@keyframes opacity {
+  0% {
+    opacity: 0.0; }
+
+  100% {
+    opacity: 1.0; } }
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0.0; }
+
+  100% {
+    opacity: 1.0; } }
+
+@keyframes number {
+  0% {
+    opacity: 0.0;
+    transform: scale(1, 1); }
+
+  50% {
+    opacity: 1.0;
+    transform: scale(1.5, 1.5); }
+
+  100% {
+    opacity: 1.0;
+    transform: scale(1, 1); } }
+
+@-webkit-keyframes number {
+  0% {
+    opacity: 0.0;
+    -webkit-transform: scale(1, 1); }
+
+  50% {
+    opacity: 1.0;
+    -webkit-transform: scale(1.5, 1.5); }
+
+  100% {
+    opacity: 1.0;
+    -webkit-transform: scale(1, 1); } }
+
+@keyframes lightning {
+  0% {
+    opacity: 1.0;
+    transform: scale(1, 1); }
+
+  50% {
+    opacity: 1.0;
+    transform: scale(1.5, 1.5); }
+
+  100% {
+    opacity: 1.0;
+    transform: scale(1, 1); } }
+
+@-webkit-keyframes lightning {
+  0% {
+    opacity: 1.0;
+    -webkit-transform: scale(1, 1); }
+
+  50% {
+    opacity: 1.0;
+    -webkit-transform: scale(1.5, 1.5); }
+
+  100% {
+    opacity: 1.0;
+    -webkit-transform: scale(1, 1); } }
+
+@-webkit-keyframes card2 {
+  0% {
+    opacity: 0.0;
+    top: 80px;
+    -webkit-transform: scale(0.8, 0.8); }
+
+  100% {
+    opacity: 1.0;
+    top: 2px;
+    -webkit-transform: scale(1, 1); } }
+
+@keyframes card2 {
+  0% {
+    opacity: 0.0;
+    top: 80px;
+    transform: scale(0.8, 0.8); }
+
+  100% {
+    opacity: 1.0;
+    top: 2px;
+    transform: scale(1, 1); } }

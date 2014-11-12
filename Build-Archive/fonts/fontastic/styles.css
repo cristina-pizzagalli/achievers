@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "achievers-general";
+    src:url("achievers-general.eot");
+    src:url("achievers-general.eot?#iefix") format("embedded-opentype"),
+    url("achievers-general.woff") format("woff"),
+    url("achievers-general.ttf") format("truetype"),
+    url("achievers-general.svg#achievers-general") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+[data-icon]:before {
+    font-family: "achievers-general" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "achievers-general" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down-circle:before {
+    content: "a";
+}
+.icon-arrow-left-circle:before {
+    content: "b";
+}
+.icon-arrow-right-circle:before {
+    content: "c";
+}
+.icon-arrow-up-circle:before {
+    content: "d";
+}
+.icon-bell-circle:before {
+    content: "e";
+}
+.icon-burger-bar:before {
+    content: "f";
+}
+.icon-comment:before {
+    content: "g";
+}
+.icon-copy:before {
+    content: "h";
+}
+.icon-download:before {
+    content: "i";
+}
+.icon-email:before {
+    content: "j";
+}
+.icon-folder:before {
+    content: "k";
+}
+.icon-forward:before {
+    content: "l";
+}
+.icon-globe:before {
+    content: "m";
+}
+.icon-light:before {
+    content: "n";
+}
+.icon-magify-glass:before {
+    content: "o";
+}
+.icon-pen:before {
+    content: "p";
+}
+.icon-play:before {
+    content: "q";
+}
+.icon-play-circle:before {
+    content: "r";
+}
+.icon-prize-circle:before {
+    content: "s";
+}
+.icon-rss:before {
+    content: "t";
+}
+.icon-speaker:before {
+    content: "u";
+}
+.icon-star:before {
+    content: "v";
+}
+.icon-view:before {
+    content: "w";
+}
+.icon-crown-circle:before {
+    content: "x";
+}
+.icon-cloud-circle:before {
+    content: "y";
+}
+.icon-compass-circle:before {
+    content: "z";
+}
+.icon-openbook-circle:before {
+    content: "A";
+}

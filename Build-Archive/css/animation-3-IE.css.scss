@@ -1,0 +1,31 @@
+.animation-3 {
+  .frame-1 {
+    .stats {
+      .left {
+        .value-4 {
+          opacity: 1.0;
+          span {
+            opacity: 1.0;
+          }
+        }
+      }
+      .right {        
+        .value-4 {
+          opacity: 1.0;
+          span {
+            opacity: 1.0;
+          }
+        }
+      }
+    }
+  }
+  .frame-2 {
+    opacity: 1;
+  }
+  .lightning {
+    opacity: 1;
+    span.two {
+      opacity: 1;
+    }
+  }
+}
